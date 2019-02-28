@@ -7,6 +7,6 @@ import java.util.List;
 @Data
 public class OrderBook {
     private Long lastUpdateId;
-    List<Order> bids;
-    List<Order> asks;
+    private List<Order> bids;
+    private List<Order> asks;
 }
